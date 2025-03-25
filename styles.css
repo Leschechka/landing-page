@@ -31,7 +31,6 @@ html, body {
 .navbar p {
 	font-size: 24px;
 	color: #F9FAF8;
-
 }
 
 .navbar ul {
@@ -69,7 +68,7 @@ button {
 	cursor: pointer;
 }
 
-.intro {
+.hero {
 	display: flex;
 	margin: 20px 0;
 	color: #E5E7EB;
@@ -90,11 +89,12 @@ h2 {
 	text-align: center;
 }
 
-.intro-item {
+.hero-item {
 	flex: 0 0 300px;
 	gap: 10px;
 }
-.intro-item img {
+
+.hero-item img {
 	object-fit: cover;
 	width: 100%;
 	height: 70%;
@@ -107,7 +107,7 @@ h2 {
 	list-style-type: none;
 	margin: auto;
 	padding: 0;
-	gap: 20px;
+	gap: 50px;
 	flex-wrap: wrap;
 
 }
@@ -121,6 +121,10 @@ h2 {
 .illustrations p {
 	margin-top: 0px;
 }
+
+h2 {
+	font-family: 'Trebuchet MS';
+}
 li img {
 	border-radius: 20px;
 	border: solid #3882f6 4px;
@@ -129,7 +133,11 @@ li img {
 	height: 150px;
 }
 
-.section.two {
+li img:hover {
+	border: 3px solid rgb(233, 170, 53);
+}
+
+.two {
 	background-color: #E5E7EB;
 	display: flex;
 	justify-content: center;
@@ -164,6 +172,11 @@ li img {
 .invitation button {
 	border: white 3px solid;
 	padding: 5px 30px;
+}
+
+button:hover {
+	color: #3882f6;
+	background-color:#F9FAF8 ;
 }
 
 .footer p {
